@@ -13,7 +13,7 @@
             <Font size="45.0" />
          </font>
       </Button>
-      <Label fx:id="seasonsLabel" layoutX="233.0" layoutY="108.0" text="Winter">
+      <Label fx:id="seasonsLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="209.0" layoutY="105.0" prefHeight="66.0" prefWidth="182.0" text="Winter" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font size="45.0" />
          </font>

@@ -12,6 +12,10 @@ public class FXMLStudentsSceneController {
 
     @FXML
     void handleButtonPressed(ActionEvent event) {
-        System.out.println("It works!!!");
+        //System.out.println("It works!!!");
+        if (seasonsLabel.getText().equals("Winter"))
+            seasonsLabel.setText("Summer");
+        else
+            seasonsLabel.setText("Winter");
     }
 }
